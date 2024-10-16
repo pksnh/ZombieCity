@@ -7452,6 +7452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player(Intro)
       objectReference: {fileID: 0}
+    - target: {fileID: 1171944432138773788, guid: 76b7eddab8e90d94e8d184207a8e7ad4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1947883722721247142, guid: 76b7eddab8e90d94e8d184207a8e7ad4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 135.4747
@@ -19870,7 +19874,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Zombie City
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb658e147c614f45b6cbe7c52044c91, type: 2}
   m_sharedMaterial: {fileID: -6971488474290486805, guid: 4bb658e147c614f45b6cbe7c52044c91, type: 2}
@@ -20035,7 +20039,7 @@ MonoBehaviour:
   loops: 1
   id: 
   isRelative: 0
-  isFrom: 0
+  isFrom: 1
   isIndependentUpdate: 0
   autoKill: 1
   autoGenerate: 1
@@ -20051,7 +20055,7 @@ MonoBehaviour:
   endValueV3: {x: 0, y: 0, z: 0}
   endValueV2: {x: 0, y: 0}
   endValueColor: {r: 1, g: 1, b: 1, a: 1}
-  endValueString: Zombie City
+  endValueString: 
   endValueRect:
     serializedVersion: 2
     x: 0
